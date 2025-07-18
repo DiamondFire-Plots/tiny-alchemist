@@ -305,6 +305,7 @@ NBT = """[{Slot:0b,components:{"minecraft:custom_data":{PublicBukkitValues:{"hyp
 chars = (''.join(CHARS_LIST)).replace("\\", "\\\\")
 chars = ''.join(chars_old)
 
+
 chars = ''
 for length in lengths:
     g = "\\\\u{:04x}".format(length)
@@ -313,6 +314,11 @@ for length in lengths:
 # chars = ','.join(replaces)
 
 chars = ','.join(space_symbols)
+
+chars = ''
+for i in range(0,128):
+    g = "\\\\u{:04x}".format(i)
+    chars += g
 
 pyperclip.copy('setinv ' + NBT.replace('$$$', chars))
 print(gzip_and_base64_encode(bytearray(lengths)))
