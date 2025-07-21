@@ -113,7 +113,10 @@ def main():
     print(f"\rFinished generating all elements, zipping...");
     zip_folder(RPACK_PATH_FULL, ZIP_RPACK_PATH)
     print("Finished zipping, committing...")
-    auto_commit_and_push(REPO_PATH, f"Auto-update ({int(time.time())}) - added {added} element textures.")
+    message = f"Auto-update ({int(time.time())})";
+    if added > 0:
+        message += f" - added {added} element textures."
+    auto_commit_and_push(REPO_PATH, message)
     print("Committed!");
         
 main();
