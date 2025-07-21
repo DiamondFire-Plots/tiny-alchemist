@@ -6,7 +6,10 @@ import gzip
 from io import BytesIO
 from PIL import Image
 import zipfile
+import subprocess
+import time
 
+REPO_PATH = r"K:\Programming\GitHub\tiny-alchemist";
 LOG_PATH = r"C:\Users\User\AppData\Roaming\PrismLauncher\instances\Simply Optimized(1)\minecraft\logs\latest.log"
 SEARCH = "$$$ start "
 RPACK_PATH_FULL = r"C:\Users\User\AppData\Roaming\PrismLauncher\instances\Simply Optimized(1)\minecraft\resourcepacks\Tiny Alchemist";
@@ -15,6 +18,19 @@ ZIP_RPACK_PATH = r"K:\Programming\GitHub\tiny-alchemist\rpack\Tiny Alchemist.zip
 MODELS_PATH = r"models\custom\elements"
 TEXTURES_PATH = r"textures\custom\elements"
 ELEMENT_MODEL_PATHES = [r"models\item\coal.json", r"models\item\flint.json"]
+
+def auto_commit_and_push(repo_dir: str, commit_message: str):
+    if not os.path.isdir(repo_dir):
+        raise ValueError(f"{repo_dir} is not a valid directory")
+    def run_git_cmd(args):
+        result = subprocess.run(['git'] + args, cwd=repo_dir, capture_output=True, text=True)
+        if result.returncode != 0:
+            raise RuntimeError(f"Git command failed: {' '.join(args)}\n{result.stderr.strip()}")
+        return result.stdout.strip()
+    run_git_cmd(['rev-parse', '--is-inside-work-tree'])
+    run_git_cmd(['add', '--all'])
+    run_git_cmd(['commit', '-m', commit_message])
+    run_git_cmd(['push'])
 
 def save_rgba_palette_as_png(colors: list, path: str):
     img = Image.new('RGBA', (16, 16))
@@ -59,6 +75,7 @@ def main():
     models_path = os.path.join(RPACK_PATH, MODELS_PATH);
     textures_path = os.path.join(RPACK_PATH, TEXTURES_PATH);
     overrides = [];
+    added = 0;
     for ri, c in enumerate(chatcut):
         i = ri + 1; # that's the DF index of the item
         with open(os.path.join(models_path, f"{i}.json"), 'w', encoding='utf-8') as f:
@@ -76,6 +93,8 @@ def main():
             palette.append(color)
         for ti in range(256):
             pixels.append(palette[buffer[ti+96]])
+        if not os.path.exists(os.path.join(textures_path, f"{i}.png")):
+            added += 1;
         save_rgba_palette_as_png(pixels, os.path.join(textures_path, f"{i}.png"))
             
             
@@ -93,6 +112,8 @@ def main():
             json.dump(obj, f, indent=4)
     print(f"\rFinished generating all elements, zipping...");
     zip_folder(RPACK_PATH_FULL, ZIP_RPACK_PATH)
-    print("Finished zipping.")
+    print("Finished zipping, committing...")
+    auto_commit_and_push(REPO_PATH, f"Auto-update ({int(time.time())}) - added {added} element textures.")
+    print("Committed!");
         
 main();
