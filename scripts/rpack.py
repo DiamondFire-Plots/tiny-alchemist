@@ -14,7 +14,7 @@ RPACK_PATH = os.path.join(RPACK_PATH_FULL, r"assets\minecraft");
 ZIP_RPACK_PATH = r"K:\Programming\GitHub\tiny-alchemist\rpack\Tiny Alchemist.zip";
 MODELS_PATH = r"models\custom\elements"
 TEXTURES_PATH = r"textures\custom\elements"
-ELEMENT_MODEL_PATHES = [r"models\item\coal.json"]
+ELEMENT_MODEL_PATHES = [r"models\item\coal.json", r"models\item\flint.json"]
 
 def save_rgba_palette_as_png(colors: list, path: str):
     img = Image.new('RGBA', (16, 16))
@@ -83,6 +83,7 @@ def main():
         overrides.append({ "predicate": { "custom_model_data": i  }, "model": f"custom/elements/{i}" })
         
         print(f"\rFinished element {i}!", end="")
+    overrides.append({ "predicate": { "custom_model_data": len(overrides)+1  }, "model": f"custom/other/loading_element" })
     for path in ELEMENT_MODEL_PATHES:
         obj = {};
         with open(os.path.join(RPACK_PATH, path), 'r', encoding='utf-8') as f:
