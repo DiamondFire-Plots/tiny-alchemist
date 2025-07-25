@@ -112,11 +112,14 @@ def main():
             json.dump(obj, f, indent=4)
     print(f"\rFinished generating all elements, zipping...");
     zip_folder(RPACK_PATH_FULL, ZIP_RPACK_PATH)
-    print("Finished zipping, committing...")
+    print("Finished zipping!")
     message = f"Auto-update ({int(time.time())})";
     if added > 0:
         message += f" - added {added} element textures."
-    auto_commit_and_push(REPO_PATH, message)
-    print("Committed!");
+    should = input("Commit? 1 for yes")
+    if should == "1":
+        print("Committing...");
+        auto_commit_and_push(REPO_PATH, message)
+        print("Committed!");
         
 main();
