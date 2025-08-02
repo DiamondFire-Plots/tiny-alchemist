@@ -1,0 +1,732 @@
+[
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 0,
+        "date": 1753483289,
+        "recipe": [
+            0,
+            0
+        ],
+        "rawname": "<#b353cc>Time",
+        "lore": [
+            "<italic>The flow of change."
+        ]
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 1,
+        "date": 1753483289,
+        "recipe": [
+            0,
+            0
+        ],
+        "rawname": "<#f7cb84>Space",
+        "lore": [
+            "<italic>The layout of existence."
+        ]
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 2,
+        "date": 1753483323,
+        "recipe": [
+            1,
+            2
+        ],
+        "rawname": "Motion",
+        "lore": [
+            "Bound to happen, given time and space."
+        ]
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 3,
+        "date": 1753484784,
+        "recipe": [
+            2,
+            2
+        ],
+        "rawname": "Distance",
+        "lore": [
+            "Essentially, separation."
+        ]
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 4,
+        "date": 1753552058,
+        "recipe": [
+            1,
+            3,
+            4
+        ],
+        "rawname": "Speed",
+        "lore": [
+            "Speed = Distance/Time"
+        ]
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 5,
+        "date": 1753552782,
+        "recipe": [
+            2,
+            4
+        ],
+        "rawname": "Position",
+        "lore": [
+            "A point in space"
+        ]
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 6,
+        "date": 1753552897,
+        "recipe": [
+            1,
+            6
+        ],
+        "rawname": "Event",
+        "lore": [
+            "A thing that happens."
+        ]
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 7,
+        "date": 1753553936,
+        "recipe": [
+            5,
+            5
+        ],
+        "rawname": "Acceleration",
+        "lore": [
+            "The speed of the speed."
+        ]
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 8,
+        "date": 1753554203,
+        "recipe": [
+            3,
+            7
+        ],
+        "rawname": "Force",
+        "lore": [
+            "An influence on motion."
+        ]
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 9,
+        "date": 1753554747,
+        "recipe": [
+            8,
+            9
+        ],
+        "rawname": "Mass",
+        "lore": [
+            "The quantified resistance to acceleration."
+        ]
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 10,
+        "date": 1753555377,
+        "recipe": [
+            2,
+            6,
+            10
+        ],
+        "rawname": "Body",
+        "lore": [
+            "An object that occupies space."
+        ]
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 11,
+        "date": 1753557878,
+        "recipe": [
+            1,
+            4
+        ],
+        "rawname": "Past",
+        "lore": [
+            "The time before."
+        ]
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 12,
+        "date": 1753557922,
+        "recipe": [
+            1,
+            12
+        ],
+        "rawname": "Present",
+        "lore": [
+            "The time currently."
+        ]
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 13,
+        "date": 1753557949,
+        "recipe": [
+            1,
+            13
+        ],
+        "rawname": "Future",
+        "lore": []
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 14,
+        "date": 1753557985,
+        "recipe": [
+            12,
+            13,
+            14
+        ],
+        "rawname": "Timeline",
+        "lore": [
+            "A sequence of events."
+        ]
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 15,
+        "date": 1753558780,
+        "recipe": [
+            1,
+            3,
+            7
+        ],
+        "rawname": "Displacement",
+        "lore": [
+            "The moving of something from its place or position."
+        ]
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 16,
+        "date": 1753558811,
+        "recipe": [
+            9,
+            16
+        ],
+        "rawname": "Work",
+        "lore": [
+            "Occurs when force causes displacement of an object."
+        ]
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 17,
+        "date": 1753559417,
+        "recipe": [
+            7,
+            14
+        ],
+        "rawname": "Possibility",
+        "lore": [
+            "A thing that can happen."
+        ]
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 18,
+        "date": 1753559452,
+        "recipe": [
+            1,
+            11,
+            18
+        ],
+        "rawname": "Capability",
+        "lore": [
+            "The ability to make something happen."
+        ]
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 19,
+        "date": 1753559498,
+        "recipe": [
+            17,
+            19
+        ],
+        "rawname": "Energy",
+        "lore": [
+            "The capability to do work."
+        ]
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 20,
+        "date": 1753560320,
+        "recipe": [
+            2,
+            10
+        ],
+        "rawname": "Matter",
+        "lore": [
+            "Anything that has mass and takes up space."
+        ]
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 21,
+        "date": 1753560358,
+        "recipe": [
+            20,
+            21
+        ],
+        "rawname": "Particle",
+        "lore": [
+            "A minute portion of matter."
+        ]
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 22,
+        "date": 1753560466,
+        "recipe": [
+            2,
+            9,
+            10,
+            11,
+            11
+        ],
+        "rawname": "Gravity",
+        "lore": [
+            "The fundamental force that pulls objects together."
+        ]
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 23,
+        "date": 1753560555,
+        "recipe": [
+            1,
+            3,
+            23
+        ],
+        "rawname": "Attraction",
+        "lore": [
+            "The motion of gravity."
+        ]
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 24,
+        "date": 1753560627,
+        "recipe": [
+            3,
+            7,
+            10
+        ],
+        "rawname": "Collision",
+        "lore": [
+            "An event where two objects interact."
+        ]
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 25,
+        "date": 1753560697,
+        "recipe": [
+            20,
+            22,
+            24
+        ],
+        "rawname": "Atom",
+        "lore": [
+            "The basic unit of matter."
+        ]
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 26,
+        "date": 1753560848,
+        "recipe": [
+            6,
+            9,
+            13,
+            24
+        ],
+        "rawname": "Bond",
+        "lore": [
+            "The attraction that holds objects together."
+        ]
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 27,
+        "date": 1753560886,
+        "recipe": [
+            25,
+            26,
+            27
+        ],
+        "rawname": "Molecule",
+        "lore": [
+            "A group of atoms held together by a bond."
+        ]
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 28,
+        "date": 1753561145,
+        "recipe": [
+            27,
+            28,
+            28
+        ],
+        "rawname": "Compound",
+        "lore": [
+            "Formed from the bond between two elements."
+        ]
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 29,
+        "date": 1753561167,
+        "recipe": [
+            6,
+            10,
+            29
+        ],
+        "rawname": "Structure",
+        "lore": [
+            "The arrangement of and relations between elements."
+        ]
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 30,
+        "date": 1753561258,
+        "recipe": [
+            7,
+            15
+        ],
+        "rawname": "Function",
+        "lore": [
+            "An intended activity or purpose."
+        ]
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 31,
+        "date": 1753561284,
+        "recipe": [
+            3,
+            30,
+            31
+        ],
+        "rawname": "System",
+        "lore": [
+            "A field in which a set of rules apply."
+        ]
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 32,
+        "date": 1753561336,
+        "recipe": [
+            12,
+            13,
+            27
+        ],
+        "rawname": "Repetition",
+        "lore": [
+            "The recurrence of an action or event."
+        ]
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 33,
+        "date": 1753561361,
+        "recipe": [
+            1,
+            32,
+            33
+        ],
+        "rawname": "Cycle",
+        "lore": [
+            "A series of events that are regularly repeated."
+        ]
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 34,
+        "date": 1753561388,
+        "recipe": [
+            2,
+            32,
+            34
+        ],
+        "rawname": "Environment",
+        "lore": [
+            "The conditions in which an activity is carried on."
+        ]
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 35,
+        "date": 1753561412,
+        "recipe": [
+            3,
+            20,
+            21
+        ],
+        "rawname": "Temperature",
+        "lore": [
+            "The average kinetic energy of particles."
+        ]
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 36,
+        "date": 1753561442,
+        "recipe": [
+            20,
+            28,
+            36
+        ],
+        "rawname": "Chemistry",
+        "lore": [
+            "The study of matter."
+        ]
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 37,
+        "date": 1753561508,
+        "recipe": [
+            1,
+            7,
+            37
+        ],
+        "rawname": "Reaction",
+        "lore": [
+            "A chemical process where substances transform."
+        ]
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 38,
+        "date": 1753561548,
+        "recipe": [
+            26,
+            26,
+            27
+        ],
+        "rawname": "Carbon",
+        "lore": [
+            "The chemical element of atomic number 6."
+        ]
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 39,
+        "date": 1753561577,
+        "recipe": [
+            29,
+            38,
+            39
+        ],
+        "rawname": "Organic Matter",
+        "lore": [
+            "Carbon-based compounds from organisms."
+        ]
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 40,
+        "date": 1753561603,
+        "recipe": [
+            2,
+            30
+        ],
+        "rawname": "Boundary",
+        "lore": [
+            "Interface separating chemical systems."
+        ]
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 41,
+        "date": 1753561624,
+        "recipe": [
+            40,
+            41
+        ],
+        "rawname": "Cell",
+        "lore": [
+            "Basic unit of life, peforms biological functions."
+        ]
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 42,
+        "date": 1753561660,
+        "recipe": [
+            20,
+            38,
+            42
+        ],
+        "rawname": "Metabolism",
+        "lore": [
+            "Chemical process which converts matter to energy for life."
+        ]
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 43,
+        "date": 1753561699,
+        "recipe": [
+            7,
+            14,
+            42
+        ],
+        "rawname": "Replication",
+        "lore": [
+            "The process of duplicating molecules or structures."
+        ]
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 44,
+        "date": 1753561719,
+        "recipe": [
+            1,
+            43,
+            44
+        ],
+        "rawname": "Growth",
+        "lore": [
+            "Increase in size, mass & complexity over time."
+        ]
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 45,
+        "date": 1753561748,
+        "recipe": [
+            1,
+            3
+        ],
+        "rawname": "Change",
+        "lore": [
+            "Alteration in form, function, or state over time."
+        ]
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 46,
+        "date": 1753561774,
+        "recipe": [
+            44,
+            46
+        ],
+        "rawname": "Mutation",
+        "lore": [
+            "A chance in genetic sequence."
+        ]
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 47,
+        "date": 1753561793,
+        "recipe": [
+            35,
+            47
+        ],
+        "rawname": "Adaptation",
+        "lore": [
+            "A change that improves an organism's survival."
+        ]
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 48,
+        "date": 1753561822,
+        "recipe": [
+            42,
+            45,
+            48
+        ],
+        "rawname": "Organism",
+        "lore": [
+            "A living system capable of growth and reproduction."
+        ]
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 49,
+        "date": 1753561873,
+        "recipe": [
+            13,
+            20,
+            22,
+            31,
+            49
+        ],
+        "rawname": "Life",
+        "lore": [
+            "The fundamental property of any living thing."
+        ]
+    }
+]

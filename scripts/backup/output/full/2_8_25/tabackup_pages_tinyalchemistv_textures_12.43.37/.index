@@ -1,0 +1,11 @@
+{
+    "length": 50,
+    "size": 4,
+    "use_resized": false,
+    "atlases": [
+        "1-16.png",
+        "17-32.png",
+        "33-48.png",
+        "49-50.png"
+    ]
+}
