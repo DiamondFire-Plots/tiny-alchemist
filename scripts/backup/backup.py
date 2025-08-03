@@ -9,7 +9,7 @@ from PIL import Image
 LOG_PATH = r"C:\Users\User\AppData\Roaming\PrismLauncher\instances\Simply Optimized(1)\minecraft\logs\latest.log"
 IDENTIFIER = "Ԕ֐ļЕΚӰԾԾȒɁ"
 OUTPUT_PATH = r"K:\Programming\GitHub\tiny-alchemist\scripts\backup\output"
-ATLAS_BLOCK_SIZE = 4
+ATLAS_BLOCK_SIZE = 16
 
 
 
