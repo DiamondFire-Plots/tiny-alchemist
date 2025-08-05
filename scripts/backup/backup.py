@@ -111,6 +111,7 @@ def list_values():
     name = get_next_message()
     print(name)
     length = int(get_next_message())
+    # length = 100
     timeget = chatDates[pointer].replace(":", ".")
     final = []
     print(f"Backing up List-Values database '{name}' of of length {length}...")

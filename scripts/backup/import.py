@@ -209,7 +209,13 @@ def check_arrays():
 Tk().withdraw()
 FILE_PATH = askopenfilename()
 MAX_LENGTH_PER_BLOCK = 2000
+WANTED_SEND_CHANNELS = 1
+try:
+    WANTED_SEND_CHANNELS = int(input("How many send channels? type enter for 1. "))
+except:
+    pass
 SEND_CHANNELS = 1
+
 
 name = FILE_PATH.split("_")[1]
 obj = {}
@@ -257,7 +263,7 @@ if isinstance(obj, list):
         sumg = 0;
         for g in bytearray(value):
             sumg += g;
-        print(f"Sum: {sumg}")
+        # print(f"Sum: {sumg
         if len(value) + 100 > MAX_LENGTH_PER_BLOCK: # large
             small.append(bytearray())
             small[-1].append(floor(len(value) / 128))
@@ -321,9 +327,9 @@ while True:
     ws.send('inv');
     invsave = ws.recv();
     print(f"\r({originalLength-len(sendQueue)}/{originalLength}) Waiting For Receival...", end="")
-    print(previous == invsave);
-    print(invsave);
-    if (not invsave.startswith("""[{Slot:0b,components:{"minecraft:custom_data":{PublicBukkitValues:{"hypercube:auth":"Ԕ֐ļЕΚӰԾԾȒɁ\"""")) or previous == invsave:
+    # print(previous == invsave);
+    # print(invsave);
+    if (not (""""hypercube:auth":"Ԕ֐ļЕΚӰԾԾȒɁ\"""" in invsave)) or previous == invsave:
         sleep(0.02)
         continue;
     print(f"\r({originalLength-len(sendQueue)}/{originalLength}) Sending Message...", end="")
@@ -335,6 +341,7 @@ while True:
     if "Waiting For Data: -1" in invsave:
         channelsrequested = 1;
     sendchannels = min(SEND_CHANNELS, channelsrequested)
+    SEND_CHANNELS = min(SEND_CHANNELS + 1, WANTED_SEND_CHANNELS)
     send = [str(e) for e in sendQueue[:sendchannels]]
     sendQueue = sendQueue[sendchannels:]
     sendNBT = []
