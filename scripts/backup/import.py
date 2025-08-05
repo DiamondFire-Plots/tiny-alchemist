@@ -215,6 +215,8 @@ try:
 except:
     pass
 SEND_CHANNELS = 1
+START_AT_ID = -1 # 19938
+END_AT_ID = -1 #40000
 
 
 name = FILE_PATH.split("_")[1]
@@ -251,6 +253,11 @@ if isinstance(obj, dict):
             small[-1].extend(value)
             check_arrays()
 if isinstance(obj, list):
+    if END_AT_ID == -1:
+        END_AT_ID = len(obj)
+    if START_AT_ID == -1:
+        START_AT_ID = 1
+    obj = obj[START_AT_ID-1:END_AT_ID]
     print("parsing list!")
     large = None
     for value_str in obj:

@@ -34,6 +34,7 @@ items = []
 
 print("Open Items File!")
 ITEMS_FILE_PATH = askopenfilename(title="Open Items File")
+BASIC_ELEMENTS = 10
 
 with open(ITEMS_FILE_PATH, 'r', encoding='utf-8') as f:
     items = json.load(f)
@@ -58,7 +59,9 @@ if len(stats) < len(items):
             "complexity": 0,
             "isexact": 0,
             "favorites": 0,
-            "unlocked": 0
+            "unlocked": 0,
+            "age": 0,
+            "children": 0,
         })
     for i, coll in enumerate(collection):
         stats[i]['unlocked'] = 0
@@ -73,9 +76,20 @@ print("\rCalculating...        ", end="")
 for ri, item in enumerate(items):
     i = ri + 1 # DF id
     bitset = 1 << ri
-    if i > 2:
+    age_max = 0
+    for key in ['complexity', 'isexact', 'favorites', 'unlocked', 'age', 'children']:
+        if key not in stats[ri]:
+            stats[ri][key] = 0
+    stats[ri]['children'] = 0
+    if i > BASIC_ELEMENTS:
+        seen = []
         for ing in item['recipe']:
             bitset |= bitsets[ing-1]
+            age_max = max(age_max, stats[ing-1]['age'])
+            if ing not in seen:
+                stats[ing-1]['children'] += 1
+            seen.append(ing)
+        stats[ri]['age'] = age_max + 1
     bitsets.append(bitset)
     complexity = bitset.bit_count()
         

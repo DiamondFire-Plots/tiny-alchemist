@@ -17,7 +17,7 @@ RPACK_PATH = os.path.join(RPACK_PATH_FULL, r"assets\minecraft");
 ZIP_RPACK_PATH = r"K:\Programming\GitHub\tiny-alchemist\rpack\Tiny Alchemist.zip";
 MODELS_PATH = r"models\custom\elements"
 TEXTURES_PATH = r"textures\custom\elements"
-ELEMENT_MODEL_PATHES = [r"models\item\coal.json", r"models\item\flint.json"]
+ELEMENT_MODEL_PATHES = [r"models\item\filled_map.json", r"models\item\flint.json"]
 
 def auto_commit_and_push(repo_dir: str, commit_message: str):
     if not os.path.isdir(repo_dir):

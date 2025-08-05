@@ -1,0 +1,9 @@
+{
+    "length": 1329,
+    "size": 32,
+    "use_resized": false,
+    "atlases": [
+        "1-1024.png",
+        "1025-1329.png"
+    ]
+}

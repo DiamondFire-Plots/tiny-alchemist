@@ -22,6 +22,12 @@ def visible_str(s):
     cleaned = re.sub(r"</?[^>]+>", "", s)
     return cleaned.strip()
 
+def clean_string(s):
+    return re.sub(r'[^a-z]', '', s.lower())
+
+def strip_str(s):
+    return clean_string(visible_str(s))
+
 def to_utc_timestamp(s):
     dt = datetime.strptime(s, "%Y/%m/%d %H:%M:%S")
     return dt.replace(tzinfo=timezone.utc).timestamp()
@@ -54,9 +60,25 @@ def list_to_bitset_bytearray(numbers):
         bitset.pop()
     return bytearray(bitset)
 
+def trim_trailing_lore(entries):
+    def is_metadata_line(s):
+        return any(
+            s.strip().startswith(f"<dark_gray>{key}")
+            for key in ["By:", "ID:", "Ingredient Level:", "Date:"]
+        ) or s.strip() == "<gray>"
+    newEntries = []
+    for entry in entries:
+        if not is_metadata_line(entry):
+            newEntries.append(entry)
+    if len(newEntries) == 1:
+        if newEntries[0] == "":
+            newEntries = []
+    return newEntries
+
 OUTPUT_PATH = r"K:\Programming\GitHub\tiny-alchemist\scripts\lapgc\lvimport_items.json"
 OUTPUT_COLL_PATH = r"K:\Programming\GitHub\tiny-alchemist\scripts\lapgc\lvimport_collection.json"
 PLAYERS_PATH = r"K:\Programming\GitHub\tiny-alchemist\scripts\lapgc\lvimport_players.json"
+COLORS_PATH = r"K:\Programming\GitHub\tiny-alchemist\scripts\lapgc\lvimport_colors.json"
 DUMP_PATH = r"K:\Programming\Programs\DiamondFire Backup\output\oldandimportant\lvsbackup_LAPGC_3_21.29.32.json"
 MATERIALS_PATH = r"K:\Programming\GitHub\tiny-alchemist\scripts\lapgc\working_materials.txt"
 RELINK_UUIDS = {
@@ -67,6 +89,10 @@ RELINK_UUIDS = {
 dump = [];
 with open(DUMP_PATH, 'r', encoding='utf-8') as f:
     dump = json.load(f)
+    
+colors = [];
+with open(COLORS_PATH, 'r', encoding='utf-8') as f:
+    colors = json.load(f)
     
 players = [];
 uuids = []
@@ -85,6 +111,7 @@ output = []
 collection = []
 default_date = 1609606492
 existing_names = {}
+totalLens = []
 maxx = 0
 for id, unparsed in enumerate(dump):
     texture = 0
@@ -140,22 +167,26 @@ for id, unparsed in enumerate(dump):
         player_dicts[pid-1]['i'] += 1
     itemcollection = gzip_and_base64_encode(list_to_bitset_bytearray(unlocked))
     collection.append(itemcollection)
-    
+    lore = trim_trailing_lore(lore)
     if lorelength > 3000:
         lore = ["Lore removed because it was too long."]
     rawname = unparsed[0]
     if len(rawname) > 400:
         # print(f"Cutting {rawname} because it was {len(rawname)} long!")
         rawname = rawname[0:400]
-    lll = len(visible_str(rawname))
+    lll = len(strip_str(rawname))
+    if lll < 2:
+        # print(f"Cutting {rawname} because it was {len(rawname)} long!")
+        rawname = f"invalidname_{''.join(random.choices(string.ascii_lowercase, k=7))}_{rawname}"
+    lll = len(strip_str(rawname))
     if lll > 55:
         rawname = visible_str(rawname)[0:45] + visible_str(rawname)[-10:]
     while True:
-        if rawname not in existing_names:
+        if strip_str(rawname) not in existing_names:
             break
         # print(f"Changing {rawname} because it already exists, originally cut because it was {lll} long!")
         rawname = replace_last_5_with_random(rawname)
-    existing_names[rawname] = id
+    existing_names[strip_str(rawname)] = id
     
     
     obj = {
@@ -168,10 +199,12 @@ for id, unparsed in enumerate(dump):
         "lore": lore,
         # "tags": tags
     }
+    if colors[id] != "#000000":
+        obj['color'] = colors[id]
     
     maxx = max(maxx, len(gzip_and_base64_encode(bytearray(json.dumps(obj).encode('utf-8')))))
     maxx = max(maxx, len(bytearray(json.dumps(obj).encode('utf-8'))))
-    
+    # totalLens.append()
     
     output.append(obj)
 
