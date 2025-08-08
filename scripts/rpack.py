@@ -8,6 +8,7 @@ from PIL import Image
 import zipfile
 import subprocess
 import time
+import shutil
 
 REPO_PATH = r"K:\Programming\GitHub\tiny-alchemist";
 LOG_PATH = r"C:\Users\User\AppData\Roaming\PrismLauncher\instances\Simply Optimized(1)\minecraft\logs\latest.log"
@@ -74,6 +75,12 @@ def main():
     print(f"\rCreating {len(chatcut)} textures...                     ");
     models_path = os.path.join(RPACK_PATH, MODELS_PATH);
     textures_path = os.path.join(RPACK_PATH, TEXTURES_PATH);
+    if os.path.exists(models_path):
+        shutil.rmtree(models_path)
+    os.makedirs(models_path);
+    if os.path.exists(textures_path):
+        shutil.rmtree(textures_path)
+    os.makedirs(textures_path);
     overrides = [];
     added = 0;
     for ri, c in enumerate(chatcut):
