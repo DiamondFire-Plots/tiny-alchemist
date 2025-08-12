@@ -1,0 +1,67 @@
+{
+    "providers": [
+        {
+            "type": "space",
+            "advances": {
+                "\ue000": -48,
+                "\ue001": 3
+            }
+        },
+		{
+			"type": "bitmap",
+			"file": "minecraft:custom/menus/ui/inventory.png",
+			"ascent": 30,
+            "height": 256,
+			"chars": [ "\ue002" ]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:custom/menus/ui/add.png",
+			"ascent": 30,
+            "height": 256,
+			"chars": [ "\ue003" ]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:custom/menus/ui/draw.png",
+			"ascent": 30,
+            "height": 256,
+			"chars": [ "\ue004" ]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:custom/menus/ui/texture.png",
+			"ascent": 30,
+            "height": 256,
+			"chars": [ "\ue005" ]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:custom/menus/ui/advanced.png",
+			"ascent": 30,
+            "height": 256,
+			"chars": [ "\ue006" ]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:custom/menus/ui/dev.png",
+			"ascent": 30,
+            "height": 256,
+			"chars": [ "\ue007" ]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:custom/menus/ui/browse.png",
+			"ascent": 30,
+            "height": 256,
+			"chars": [ "\ue008" ]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:custom/menus/ui/settings.png",
+			"ascent": 30,
+            "height": 256,
+			"chars": [ "\ue009" ]
+		}
+    ]
+}

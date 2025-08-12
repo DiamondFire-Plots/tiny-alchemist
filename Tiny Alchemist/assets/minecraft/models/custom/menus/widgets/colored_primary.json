@@ -1,0 +1,15 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "minecraft:custom/menus/widgets/colored_primary",
+		"layer1": "minecraft:custom/menus/widgets/colored_empty"
+	},
+	"gui_light": "front",
+	"display": {
+		"gui": {
+			"translation": [18, -17, 0]
+		}
+	}
+}

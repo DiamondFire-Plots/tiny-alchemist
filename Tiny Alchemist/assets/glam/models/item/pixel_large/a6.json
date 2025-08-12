@@ -1,0 +1,6 @@
+{
+  "parent": "glam:item/pixel_large",
+  "textures": {
+    "layer0": "glam:item/pixel_base/a6"
+  }
+}

@@ -1,0 +1,23 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "minecraft:item/cookie"
+	},
+	"overrides": [
+		{ "predicate": { "custom_model_data": 1  }, "model": "custom/menus/widgets/advanced_slot_empty" },
+		{ "predicate": { "custom_model_data": 2  }, "model": "custom/menus/widgets/advanced_slot_1" },
+		{ "predicate": { "custom_model_data": 3  }, "model": "custom/menus/widgets/advanced_slot_2" },
+		{ "predicate": { "custom_model_data": 4  }, "model": "custom/menus/widgets/advanced_slot_3" },
+		{ "predicate": { "custom_model_data": 5  }, "model": "custom/menus/widgets/advanced_slot_4" },
+		{ "predicate": { "custom_model_data": 6  }, "model": "custom/menus/widgets/advanced_slot_5" },
+		{ "predicate": { "custom_model_data": 7  }, "model": "custom/menus/widgets/advanced_slot_6" },
+		{ "predicate": { "custom_model_data": 8  }, "model": "custom/menus/widgets/advanced_slot_7" },
+		{ "predicate": { "custom_model_data": 9  }, "model": "custom/menus/widgets/advanced_slot_8" },
+		{ "predicate": { "custom_model_data": 10  }, "model": "custom/menus/widgets/advanced_slot_9" },
+		{ "predicate": { "custom_model_data": 11  }, "model": "custom/menus/widgets/advanced_slot_10" },
+		{ "predicate": { "custom_model_data": 12  }, "model": "custom/menus/widgets/advanced_slot_11" },
+		{ "predicate": { "custom_model_data": 13  }, "model": "custom/menus/widgets/advanced_slot_12" },
+		{ "predicate": { "custom_model_data": 14  }, "model": "custom/menus/widgets/advanced_slot_13" },
+		{ "predicate": { "custom_model_data": 15  }, "model": "custom/menus/widgets/advanced_slot_finished" }
+	]
+}

@@ -1,0 +1,84 @@
+{
+    "providers": [
+		{
+			"type": "bitmap",
+			"file": "minecraft:custom/other/square.png",
+			"ascent": 7,
+            "height": 10,
+			"chars": [
+				"\ue001"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/uioverlay.png",
+			"ascent": 8,
+            "height": 8,
+			"chars": [
+				"H"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:custom/other/line.png",
+			"ascent": 7,
+            "height": 9,
+			"chars": [
+				"\ue000"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:custom/other/global.png",
+			"ascent": 7,
+			"chars": [
+				"G"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:custom/other/error.png",
+			"ascent": 8,
+            "height": 8,
+			"chars": [
+				"E"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:custom/other/add.png",
+			"ascent": 8,
+            "height": 8,
+			"chars": [
+				"A"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:custom/other/unlock.png",
+			"ascent": 8,
+            "height": 8,
+			"chars": [
+				"U"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:custom/other/favorite.png",
+			"ascent": 8,
+            "height": 8,
+			"chars": [
+				"F"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:custom/other/info.png",
+			"ascent": 8,
+            "height": 8,
+			"chars": [
+				"I"
+			]
+		}
+    ]
+}

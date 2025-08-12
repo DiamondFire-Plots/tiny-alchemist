@@ -1,0 +1,29 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/other/global.png",
+            "ascent": 7,
+            "chars": ["\u2006"]
+        },
+		{
+			"type": "bitmap",
+			"file": "minecraft:custom/other/element_name.png",
+			"ascent": 8,
+			"chars": ["\ue000"]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:custom/other/element_id.png",
+			"ascent": 8,
+			"chars": ["\ue001"]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:custom/other/code.png",
+			"ascent": 8,
+			"height": 9,
+			"chars": ["\ue002"]
+		}
+    ]
+}

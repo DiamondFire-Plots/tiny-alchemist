@@ -1,0 +1,13 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "custom/elements/11"
+	},
+    "gui_light": "front",
+    "display": {
+        "gui": {
+            "scale": [2, 2, 1],
+            "translation": [-49, 38, 0]
+        }
+    }
+}

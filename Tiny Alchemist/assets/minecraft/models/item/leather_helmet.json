@@ -1,0 +1,13 @@
+{
+  "parent": "minecraft:item/generated",
+  "overrides": [
+    {"predicate": { "custom_model_data": 1 }, "model": "custom/menus/widgets/colored_primary"},
+    {"predicate": { "custom_model_data": 2 }, "model": "custom/menus/widgets/colored_secondary"},
+    {"predicate": { "custom_model_data": 3 }, "model": "custom/menus/widgets/colored_pixel"},
+    {"predicate": { "custom_model_data": 4 }, "model": "custom/menus/widgets/colored_palette"}
+  ],
+  "textures": {
+    "layer0": "minecraft:item/leather_helmet",
+    "layer1": "minecraft:item/leather_helmet_overlay"
+  }
+}

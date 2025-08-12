@@ -1,0 +1,336 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "minecraft:item/filled_map",
+        "layer1": "minecraft:item/filled_map_markings"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 1
+            },
+            "model": "custom/elements/1"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 2
+            },
+            "model": "custom/elements/2"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3
+            },
+            "model": "custom/elements/3"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 4
+            },
+            "model": "custom/elements/4"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 5
+            },
+            "model": "custom/elements/5"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6
+            },
+            "model": "custom/elements/6"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 7
+            },
+            "model": "custom/elements/7"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 8
+            },
+            "model": "custom/elements/8"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 9
+            },
+            "model": "custom/elements/9"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 10
+            },
+            "model": "custom/elements/10"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 11
+            },
+            "model": "custom/elements/11"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 12
+            },
+            "model": "custom/elements/12"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 13
+            },
+            "model": "custom/elements/13"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 14
+            },
+            "model": "custom/elements/14"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 15
+            },
+            "model": "custom/elements/15"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 16
+            },
+            "model": "custom/elements/16"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 17
+            },
+            "model": "custom/elements/17"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18
+            },
+            "model": "custom/elements/18"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 19
+            },
+            "model": "custom/elements/19"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20
+            },
+            "model": "custom/elements/20"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 21
+            },
+            "model": "custom/elements/21"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 22
+            },
+            "model": "custom/elements/22"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 23
+            },
+            "model": "custom/elements/23"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 24
+            },
+            "model": "custom/elements/24"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 25
+            },
+            "model": "custom/elements/25"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 26
+            },
+            "model": "custom/elements/26"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 27
+            },
+            "model": "custom/elements/27"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 28
+            },
+            "model": "custom/elements/28"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 29
+            },
+            "model": "custom/elements/29"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 30
+            },
+            "model": "custom/elements/30"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 31
+            },
+            "model": "custom/elements/31"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 32
+            },
+            "model": "custom/elements/32"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 33
+            },
+            "model": "custom/elements/33"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 34
+            },
+            "model": "custom/elements/34"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 35
+            },
+            "model": "custom/elements/35"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 36
+            },
+            "model": "custom/elements/36"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 37
+            },
+            "model": "custom/elements/37"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 38
+            },
+            "model": "custom/elements/38"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 39
+            },
+            "model": "custom/elements/39"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 40
+            },
+            "model": "custom/elements/40"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 41
+            },
+            "model": "custom/elements/41"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 42
+            },
+            "model": "custom/elements/42"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 43
+            },
+            "model": "custom/elements/43"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 44
+            },
+            "model": "custom/elements/44"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 45
+            },
+            "model": "custom/elements/45"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 46
+            },
+            "model": "custom/elements/46"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 47
+            },
+            "model": "custom/elements/47"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 48
+            },
+            "model": "custom/elements/48"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 49
+            },
+            "model": "custom/elements/49"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 50
+            },
+            "model": "custom/elements/50"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 51
+            },
+            "model": "custom/elements/51"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 52
+            },
+            "model": "custom/elements/52"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 53
+            },
+            "model": "custom/other/loading_element"
+        }
+    ],
+    "display": {
+        "gui": {
+            "translation": [
+                0,
+                0,
+                -9
+            ]
+        }
+    }
+}

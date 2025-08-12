@@ -1,0 +1,6 @@
+{
+  "parent": "glam:item/pixel_item",
+  "textures": {
+    "layer0": "glam:item/pixel_base/ab"
+  }
+}

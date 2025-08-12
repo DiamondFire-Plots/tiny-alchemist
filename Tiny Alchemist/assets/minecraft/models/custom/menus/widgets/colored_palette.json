@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:item/generated",
+  "overrides": [
+    {"predicate": { "custom_model_data": 1 }, "model": "custom/menus/inv/info"}
+  ],
+  "textures": {
+    "layer0": "minecraft:custom/menus/widgets/colored_palette",
+    "layer1": "minecraft:custom/menus/widgets/colored_empty"
+  }
+}

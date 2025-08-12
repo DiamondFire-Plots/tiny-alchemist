@@ -1,0 +1,33 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "custom/menus/inv/pipes_4",
+		"particle": "custom/menus/inv/pipes_4"
+	},
+	"elements": [
+		{
+			"from": [-16, -16, 0],
+			"to": [32, 32, 0],
+			"faces": {
+				"north": {"uv": [2.5, 2.5, 13.5, 13.5], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 16], "texture": "#missing"},
+				"south": {"uv": [2.5, 2.5, 13.5, 13.5], "texture": "#0"},
+				"west": {"uv": [0, 0, 0, 16], "texture": "#missing"},
+				"up": {"uv": [0, 0, 16, 0], "texture": "#missing"},
+				"down": {"uv": [0, 0, 16, 0], "texture": "#missing"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"firstperson_righthand": {
+			"translation": [5.5, 3, 3.75],
+			"scale": [0.2, 0.2, 1]
+		},
+		"gui": {
+			"translation": [-72, 50, 0],
+			"scale": [3.67, 3.67, 1]
+		}
+	},
+	"format_version": "1.21.6"
+}

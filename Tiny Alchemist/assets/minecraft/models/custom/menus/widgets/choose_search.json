@@ -1,0 +1,11 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+      "layer0": "minecraft:custom/menus/widgets/main_search"
+    },
+    "display": {
+      "gui": {
+        "translation": [0, 3, 0]
+      }
+    }
+}

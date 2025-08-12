@@ -1,0 +1,11 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+      "layer0": "minecraft:custom/menus/widgets/advanced_slot_highlight"
+    },
+    "display": {
+      "gui": {
+        "translation": [0, -18, 0]
+      }
+    }
+}
