@@ -11,9 +11,9 @@ import time
 import shutil
 
 REPO_PATH = r"K:\Programming\GitHub\tiny-alchemist";
-LOG_PATH = r"C:\Users\User\AppData\Roaming\PrismLauncher\instances\Simply Optimized(1)\minecraft\logs\latest.log"
+LOG_PATH = r"C:\Users\User\AppData\Roaming\PrismLauncher\instances\DiamondFire\minecraft\logs\latest.log"
 SEARCH = "$$$ start "
-RPACK_PATH_FULL = r"C:\Users\User\AppData\Roaming\PrismLauncher\instances\Simply Optimized(1)\minecraft\resourcepacks\Tiny Alchemist";
+RPACK_PATH_FULL = r"C:\Users\User\AppData\Roaming\PrismLauncher\instances\DiamondFire\minecraft\resourcepacks\Tiny Alchemist";
 RPACK_PATH = os.path.join(RPACK_PATH_FULL, r"assets\minecraft");
 ZIP_RPACK_PATH = r"K:\Programming\GitHub\tiny-alchemist\rpack\Tiny Alchemist.zip";
 MODELS_PATH = r"models\custom\elements"

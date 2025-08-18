@@ -44,7 +44,7 @@ IMAGE_PATHES = [
 ]
     
 JSON_PATH = r"C:\Users\User\AppData\Roaming\.minecraft\resourcepacks\Looser's Minesweeper All\assets\minecraft\font\include\default.json"
-JSON_PATH_SPACES = r"C:\Users\User\AppData\Roaming\PrismLauncher\instances\Simply Optimized(1)\minecraft\resourcepacks\Tiny Alchemist\assets\minecraft\font\spaces.json"
+JSON_PATH_SPACES = r"C:\Users\User\AppData\Roaming\PrismLauncher\instances\DiamondFire\minecraft\resourcepacks\Tiny Alchemist\assets\minecraft\font\spaces.json"
 CHARS_LIST = [
                 r"\u00a1\u2030\u00ad\u00b7\u20b4\u2260\u00bf\u00d7\u00d8\u00de\u04bb\u00f0\u00f8\u00fe\u0391\u0392",
                 r"\u0393\u0394\u0395\u0396\u0397\u0398\u0399\u039a\u039b\u039c\u039d\u039e\u039f\u03a0\u03a1\u03a3",

@@ -106,8 +106,8 @@ def textureToGzip(path: str) -> str:
 
 
 LIST_PATH = r"K:\Programming\GitHub\tiny-alchemist\scripts\lapgc\materials.txt"
-MODELS_PATH = r"C:\Users\User\AppData\Roaming\PrismLauncher\instances\Simply Optimized(1)\minecraft\resourcepacks\main1.21.3\assets\minecraft\models"
-TEXTURES_PATH = r"C:\Users\User\AppData\Roaming\PrismLauncher\instances\Simply Optimized(1)\minecraft\resourcepacks\main1.21.3\assets\minecraft\textures"
+MODELS_PATH = r"C:\Users\User\AppData\Roaming\PrismLauncher\instances\DiamondFire\minecraft\resourcepacks\main1.21.3\assets\minecraft\models"
+TEXTURES_PATH = r"C:\Users\User\AppData\Roaming\PrismLauncher\instances\DiamondFire\minecraft\resourcepacks\main1.21.3\assets\minecraft\textures"
 OUTPUT_PATH_TEXTURES = r"K:\Programming\GitHub\tiny-alchemist\scripts\lapgc\lvimport_textures.json"
 OUTPUT_PATH_MATERIALS = r"K:\Programming\GitHub\tiny-alchemist\scripts\lapgc\lvimport_materials.json"
 OUTPUT_PATH_MATERIALS_TEXT = r"K:\Programming\GitHub\tiny-alchemist\scripts\lapgc\working_materials.txt"
