@@ -87,8 +87,43 @@ def main():
                 del obj['model']['tints']
             json.dump(obj, f, indent=4)
 
+    itemobj = {
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+    ]
+  },
+  "oversized_in_gui": True
+};
+    chars = "0123456789abcdef"
+    i = 0
+    for y in range(15, -1, -1):
+        for x in range(0,16):
+            itemobj['model']['models'].append({
+                "type": "minecraft:condition",
+                "property": "minecraft:custom_model_data",
+                "index": i,
+                "on_true": {
+                "type": "minecraft:model",
+                "model": "glam:item/pixel_base/" + chars[y] + chars[x],
+                "tints": [
+                    {
+                    "type": "minecraft:custom_model_data",
+                    "index": i,
+                    "default": 16448250
+                    }
+                ]
+                },
+                "on_false": {
+                "type": "minecraft:empty"
+                }
+            })
+            i += 1
     
-
+    base_path = os.path.join(ITEMS_PATH, r"elements/base.json")
+    os.makedirs(os.path.dirname(base_path), exist_ok=True)
+    with open(base_path, "w") as f:
+        json.dump(itemobj, f, indent=4)
     print(f"\rFinished generating all elements, zipping...");
     zip_folder(RPACK_PATH_FULL, ZIP_RPACK_PATH)
     print("Finished zipping!")
