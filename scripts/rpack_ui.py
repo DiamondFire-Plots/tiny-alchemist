@@ -11,14 +11,15 @@ import time
 import shutil
 
 REPO_PATH = r"K:\Programming\GitHub\tiny-alchemist";
-LOG_PATH = r"C:\Users\User\AppData\Roaming\PrismLauncher\instances\DiamondFire\minecraft\logs\latest.log"
+LOG_PATH = r"C:\Users\User\AppData\Roaming\PrismLauncher\instances\DiamondFire 1.21.8\minecraft\logs\latest.log"
 TEXT_PATH = r"K:\Programming\GitHub\tiny-alchemist\scripts\rpack_ui.txt"
 SEARCH = "$$$ start "
-RPACK_PATH_FULL = r"C:\Users\User\AppData\Roaming\PrismLauncher\instances\DiamondFire\minecraft\resourcepacks\Tiny Alchemist";
+RPACK_PATH_FULL = r"C:\Users\User\AppData\Roaming\PrismLauncher\instances\DiamondFire 1.21.8\minecraft\resourcepacks\Tiny Alchemist";
 RPACK_PATH = os.path.join(RPACK_PATH_FULL, r"assets\minecraft");
 ZIP_RPACK_PATH = r"K:\Programming\GitHub\tiny-alchemist\rpack\Tiny Alchemist.zip";
-MODELS_PATH = r"models\custom\elements"
+MODELS_MENU_PATH = r"C:\Users\User\AppData\Roaming\PrismLauncher\instances\DiamondFire 1.21.8\minecraft\resourcepacks\Tiny Alchemist\assets\minecraft\models\custom\menus"
 TEXTURES_PATH = r"textures\custom\elements"
+ITEMS_PATH = r"C:\Users\User\AppData\Roaming\PrismLauncher\instances\DiamondFire 1.21.8\minecraft\resourcepacks\Tiny Alchemist\assets\minecraft\items"
 ELEMENT_MODEL_PATHES = [r"models\item\filled_map.json", r"models\item\flint.json"]
 
 def auto_commit_and_push(repo_dir: str, commit_message: str):
@@ -54,16 +55,44 @@ def zip_folder(folder_path: str, zip_path: str):
                 zipf.write(full_path, arcname=relative_path)
 
 
-chat = [];
+lines = [];
 def main():
-    global chat
+    global lines
     print("Reading Log File...", end="")
-    chat = [];
+    lines = [];
     with open(TEXT_PATH, 'r', encoding='utf-8') as f:
-        chat = f.readlines()
+        lines = f.readlines()
+    for line in lines:
+        if '=' not in line:
+            continue
+        ingame_path = line.split("=")[0].strip()
+        model_path = line.split("=")[1].strip()
+        item_path = os.path.join(ITEMS_PATH, ingame_path + ".json")
+        os.makedirs(os.path.dirname(item_path), exist_ok=True)
+        with open(item_path, "w") as f:
+            obj = {
+                "oversized_in_gui": True,
+                "model": {
+                    "type": "model",
+                    "model": "custom/menus/" + model_path,
+                    "tints": [
+                        {
+                            "type": "minecraft:dye",
+                            "default": 16770533
+                        }
+                    ]
+                }
+            }
+            if 'colored' not in item_path:
+                del obj['model']['tints']
+            json.dump(obj, f, indent=4)
 
     
 
+    print(f"\rFinished generating all elements, zipping...");
+    zip_folder(RPACK_PATH_FULL, ZIP_RPACK_PATH)
+    print("Finished zipping!")
+    message = f"Auto-update ({int(time.time())})";
     should = input("Commit? 1 for yes")
     if should == "1":
         print("Committing...");
