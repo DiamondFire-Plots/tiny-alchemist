@@ -336,8 +336,9 @@ while True:
     print(f"\r({originalLength-len(sendQueue)}/{originalLength}) Waiting For Receival...", end="")
     # print(previous == invsave);
     # print(invsave);
+    # print((""""hypercube:auth":"Ԕ֐ļЕΚӰԾԾȒɁ\"""" in invsave))
     if (not (""""hypercube:auth":"Ԕ֐ļЕΚӰԾԾȒɁ\"""" in invsave)) or previous == invsave:
-        sleep(0.02)
+        sleep(0.05)
         continue;
     print(f"\r({originalLength-len(sendQueue)}/{originalLength}) Sending Message...", end="")
     previous = invsave
@@ -354,9 +355,10 @@ while True:
     sendNBT = []
     for i, msg in enumerate(send):
         sendNBT.append(f'"hypercube:data{i+1}":{sanitize_for_snbt(msg)}')
-    newinv = """[{Slot:0b,components:{"minecraft:custom_data":{PublicBukkitValues:{""" + ','.join(sendNBT) + """}},"minecraft:custom_name":'{"color":"aqua","italic":false,"text":"Data"}'},count:1,id:"minecraft:soul_lantern"}]"""
+    newinv = """[{Slot:0b,components:{"minecraft:custom_data":{PublicBukkitValues:{""" + ','.join(sendNBT) + """}},"minecraft:custom_name":{"color":"aqua","italic":false,"text":"Data"}},count:1,id:"minecraft:soul_lantern"}]"""
+    # print(newinv)
     ws.send('setinv ' + newinv);
-    sleep(0.02)
+    sleep(0.05)
 print(f"\rDone.")
 
 if ws != None:

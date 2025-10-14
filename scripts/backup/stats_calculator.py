@@ -2,14 +2,9 @@ from math import floor
 from tkinter import Tk
 from tkinter.filedialog import askopenfilename
 import json
-import os
-import subprocess
 import gzip
 import base64
 import io
-import sys
-import websocket
-import re
 from time import sleep
 from PIL import Image
 

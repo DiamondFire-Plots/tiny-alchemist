@@ -1,0 +1,762 @@
+[
+    {
+        "complexity": 0,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 0,
+        "age": 0,
+        "children": 0
+    },
+    {
+        "complexity": 0,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 0,
+        "age": 0,
+        "children": 0
+    },
+    {
+        "complexity": 3,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 4,
+        "age": 0,
+        "children": 0
+    },
+    {
+        "complexity": 2,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 4,
+        "age": 65536,
+        "children": 16384
+    },
+    {
+        "complexity": 5,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 5,
+        "age": 65536,
+        "children": 16384
+    },
+    {
+        "complexity": 3,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 5,
+        "age": 49152,
+        "children": 32768
+    },
+    {
+        "complexity": 5,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 5,
+        "age": 49152,
+        "children": 32768
+    },
+    {
+        "complexity": 6,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 5,
+        "age": 49152,
+        "children": 49152
+    },
+    {
+        "complexity": 7,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 5,
+        "age": 49152,
+        "children": 49152
+    },
+    {
+        "complexity": 10,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 5,
+        "age": 49152,
+        "children": 65536
+    },
+    {
+        "complexity": 11,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 5,
+        "age": 49152,
+        "children": 81920
+    },
+    {
+        "complexity": 4,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 5,
+        "age": 49152,
+        "children": 98304
+    },
+    {
+        "complexity": 5,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 5,
+        "age": 49152,
+        "children": 32768
+    },
+    {
+        "complexity": 6,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 5,
+        "age": 49152,
+        "children": 49152
+    },
+    {
+        "complexity": 7,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 5,
+        "age": 49152,
+        "children": 65536
+    },
+    {
+        "complexity": 7,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 5,
+        "age": 49152,
+        "children": 81920
+    },
+    {
+        "complexity": 9,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 5,
+        "age": 49152,
+        "children": 65536
+    },
+    {
+        "complexity": 9,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 5,
+        "age": 49152,
+        "children": 81920
+    },
+    {
+        "complexity": 16,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 5,
+        "age": 49152,
+        "children": 81920
+    },
+    {
+        "complexity": 19,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 5,
+        "age": 49152,
+        "children": 114688
+    },
+    {
+        "complexity": 11,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 5,
+        "age": 49152,
+        "children": 131072
+    },
+    {
+        "complexity": 21,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 5,
+        "age": 49152,
+        "children": 98304
+    },
+    {
+        "complexity": 12,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 5,
+        "age": 49152,
+        "children": 147456
+    },
+    {
+        "complexity": 13,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 5,
+        "age": 49152,
+        "children": 114688
+    },
+    {
+        "complexity": 11,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 5,
+        "age": 49152,
+        "children": 131072
+    },
+    {
+        "complexity": 24,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 5,
+        "age": 49152,
+        "children": 98304
+    },
+    {
+        "complexity": 16,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 133,
+        "age": 49152,
+        "children": 163840
+    },
+    {
+        "complexity": 27,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 5,
+        "age": 49152,
+        "children": 147456
+    },
+    {
+        "complexity": 28,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 5,
+        "age": 49152,
+        "children": 180224
+    },
+    {
+        "complexity": 29,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 5,
+        "age": 49152,
+        "children": 196608
+    },
+    {
+        "complexity": 10,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 5,
+        "age": 49152,
+        "children": 212992
+    },
+    {
+        "complexity": 32,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 5,
+        "age": 49152,
+        "children": 98304
+    },
+    {
+        "complexity": 17,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 5,
+        "age": 49152,
+        "children": 229376
+    },
+    {
+        "complexity": 34,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 5,
+        "age": 49152,
+        "children": 163840
+    },
+    {
+        "complexity": 35,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 5,
+        "age": 49152,
+        "children": 245760
+    },
+    {
+        "complexity": 21,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 5,
+        "age": 49152,
+        "children": 262144
+    },
+    {
+        "complexity": 29,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 5,
+        "age": 49152,
+        "children": 147456
+    },
+    {
+        "complexity": 30,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 5,
+        "age": 49152,
+        "children": 196608
+    },
+    {
+        "complexity": 26,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 5,
+        "age": 49152,
+        "children": 212992
+    },
+    {
+        "complexity": 33,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 5,
+        "age": 49152,
+        "children": 180224
+    },
+    {
+        "complexity": 30,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 5,
+        "age": 49152,
+        "children": 229376
+    },
+    {
+        "complexity": 36,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 5,
+        "age": 49152,
+        "children": 229376
+    },
+    {
+        "complexity": 37,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 5,
+        "age": 49152,
+        "children": 245760
+    },
+    {
+        "complexity": 37,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 5,
+        "age": 49152,
+        "children": 262144
+    },
+    {
+        "complexity": 39,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 5,
+        "age": 49152,
+        "children": 262144
+    },
+    {
+        "complexity": 4,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 5,
+        "age": 49152,
+        "children": 278528
+    },
+    {
+        "complexity": 39,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 5,
+        "age": 49152,
+        "children": 32768
+    },
+    {
+        "complexity": 46,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 5,
+        "age": 49152,
+        "children": 278528
+    },
+    {
+        "complexity": 49,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 5,
+        "age": 49152,
+        "children": 294912
+    },
+    {
+        "complexity": 50,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 5,
+        "age": 49152,
+        "children": 311296
+    },
+    {
+        "complexity": 37,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 3,
+        "age": 49152,
+        "children": 327680
+    },
+    {
+        "complexity": 51,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 3,
+        "age": 49152,
+        "children": 262144
+    },
+    {
+        "complexity": 21,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 3,
+        "age": 49152,
+        "children": 327680
+    },
+    {
+        "complexity": 23,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 3,
+        "age": 49152,
+        "children": 147456
+    },
+    {
+        "complexity": 17,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 3,
+        "age": 49152,
+        "children": 163840
+    },
+    {
+        "complexity": 12,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 3,
+        "age": 49152,
+        "children": 131072
+    },
+    {
+        "complexity": 19,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 3,
+        "age": 49152,
+        "children": 114688
+    },
+    {
+        "complexity": 31,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 3,
+        "age": 49152,
+        "children": 180224
+    },
+    {
+        "complexity": 44,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 3,
+        "age": 49152,
+        "children": 196608
+    },
+    {
+        "complexity": 59,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 3,
+        "age": 49152,
+        "children": 262144
+    },
+    {
+        "complexity": 51,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 4,
+        "age": 49152,
+        "children": 344064
+    },
+    {
+        "complexity": 52,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 4,
+        "age": 49152,
+        "children": 344064
+    },
+    {
+        "complexity": 32,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 3,
+        "age": 49152,
+        "children": 360448
+    },
+    {
+        "complexity": 61,
+        "isexact": 1,
+        "favorites": 128,
+        "unlocked": 3,
+        "age": 49152,
+        "children": 212992
+    },
+    {
+        "complexity": 65,
+        "isexact": 1,
+        "favorites": 129,
+        "unlocked": 3,
+        "age": 49152,
+        "children": 360448
+    },
+    {
+        "complexity": 60,
+        "isexact": 1,
+        "favorites": 0,
+        "unlocked": 3,
+        "age": 49153,
+        "children": 0
+    },
+    {
+        "complexity": 61,
+        "isexact": 1,
+        "favorites": 0,
+        "unlocked": 3,
+        "age": 49154,
+        "children": 0
+    },
+    {
+        "complexity": 26,
+        "isexact": 1,
+        "favorites": 0,
+        "unlocked": 3,
+        "age": 49153,
+        "children": 0
+    },
+    {
+        "complexity": 21,
+        "isexact": 1,
+        "favorites": 0,
+        "unlocked": 3,
+        "age": 49153,
+        "children": 0
+    },
+    {
+        "complexity": 26,
+        "isexact": 1,
+        "favorites": 0,
+        "unlocked": 3,
+        "age": 49154,
+        "children": 0
+    },
+    {
+        "complexity": 27,
+        "isexact": 1,
+        "favorites": 0,
+        "unlocked": 3,
+        "age": 49154,
+        "children": 0
+    },
+    {
+        "complexity": 54,
+        "isexact": 1,
+        "favorites": 0,
+        "unlocked": 3,
+        "age": 49155,
+        "children": 0
+    },
+    {
+        "complexity": 68,
+        "isexact": 1,
+        "favorites": 0,
+        "unlocked": 3,
+        "age": 49155,
+        "children": 0
+    },
+    {
+        "complexity": 69,
+        "isexact": 1,
+        "favorites": 0,
+        "unlocked": 3,
+        "age": 49156,
+        "children": 0
+    },
+    {
+        "complexity": 70,
+        "isexact": 1,
+        "favorites": 0,
+        "unlocked": 3,
+        "age": 49157,
+        "children": 0
+    },
+    {
+        "complexity": 74,
+        "isexact": 1,
+        "favorites": 0,
+        "unlocked": 2,
+        "age": 49158,
+        "children": 0
+    },
+    {
+        "complexity": 75,
+        "isexact": 1,
+        "favorites": 0,
+        "unlocked": 2,
+        "age": 49159,
+        "children": 0
+    },
+    {
+        "complexity": 19,
+        "isexact": 1,
+        "favorites": 0,
+        "unlocked": 2,
+        "age": 65537,
+        "children": 0
+    },
+    {
+        "complexity": 24,
+        "isexact": 1,
+        "favorites": 0,
+        "unlocked": 2,
+        "age": 65538,
+        "children": 0
+    },
+    {
+        "complexity": 27,
+        "isexact": 1,
+        "favorites": 0,
+        "unlocked": 2,
+        "age": 65539,
+        "children": 0
+    },
+    {
+        "complexity": 21,
+        "isexact": 1,
+        "favorites": 0,
+        "unlocked": 2,
+        "age": 49153,
+        "children": 0
+    },
+    {
+        "complexity": 30,
+        "isexact": 1,
+        "favorites": 0,
+        "unlocked": 2,
+        "age": 49154,
+        "children": 0
+    },
+    {
+        "complexity": 31,
+        "isexact": 1,
+        "favorites": 0,
+        "unlocked": 2,
+        "age": 49155,
+        "children": 0
+    },
+    {
+        "complexity": 39,
+        "isexact": 1,
+        "favorites": 0,
+        "unlocked": 2,
+        "age": 65540,
+        "children": 0
+    },
+    {
+        "complexity": 40,
+        "isexact": 1,
+        "favorites": 0,
+        "unlocked": 2,
+        "age": 65541,
+        "children": 0
+    },
+    {
+        "complexity": 28,
+        "isexact": 1,
+        "favorites": 0,
+        "unlocked": 2,
+        "age": 65540,
+        "children": 0
+    },
+    {
+        "complexity": 29,
+        "isexact": 1,
+        "favorites": 0,
+        "unlocked": 2,
+        "age": 65541,
+        "children": 0
+    },
+    {
+        "complexity": 32,
+        "isexact": 1,
+        "favorites": 0,
+        "unlocked": 2,
+        "age": 49156,
+        "children": 0
+    },
+    {
+        "complexity": 42,
+        "isexact": 1,
+        "favorites": 0,
+        "unlocked": 2,
+        "age": 65542,
+        "children": 0
+    },
+    {
+        "complexity": 17,
+        "isexact": 1,
+        "favorites": 0,
+        "unlocked": 2,
+        "age": 49153,
+        "children": 0
+    },
+    {
+        "complexity": 41,
+        "isexact": 1,
+        "favorites": 0,
+        "unlocked": 2,
+        "age": 49154,
+        "children": 0
+    },
+    {
+        "complexity": 47,
+        "isexact": 1,
+        "favorites": 0,
+        "unlocked": 2,
+        "age": 49155,
+        "children": 0
+    },
+    {
+        "complexity": 73,
+        "isexact": 1,
+        "favorites": 0,
+        "unlocked": 2,
+        "age": 65543,
+        "children": 0
+    },
+    {
+        "complexity": 77,
+        "isexact": 1,
+        "favorites": 0,
+        "unlocked": 2,
+        "age": 65544,
+        "children": 0
+    },
+    {
+        "complexity": 87,
+        "isexact": 1,
+        "favorites": 0,
+        "unlocked": 2,
+        "age": 65544,
+        "children": 0
+    }
+]

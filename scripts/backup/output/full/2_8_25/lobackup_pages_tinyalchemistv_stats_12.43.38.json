@@ -5,7 +5,7 @@
         "favorites": 0,
         "unlocked": 0,
         "age": 0,
-        "children": 13
+        "children": 10
     },
     {
         "complexity": 1,
@@ -13,389 +13,389 @@
         "favorites": 0,
         "unlocked": 0,
         "age": 0,
-        "children": 8
+        "children": 5
     },
     {
-        "complexity": 3,
-        "isexact": 1,
-        "favorites": 180,
-        "unlocked": 14,
-        "age": 1,
-        "children": 8
-    },
-    {
-        "complexity": 2,
-        "isexact": 1,
-        "favorites": 21,
-        "unlocked": 8,
-        "age": 1,
-        "children": 3
-    },
-    {
-        "complexity": 5,
+        "complexity": 1,
         "isexact": 1,
         "favorites": 0,
-        "unlocked": 6,
-        "age": 2,
+        "unlocked": 0,
+        "age": 1,
+        "children": 6
+    },
+    {
+        "complexity": 1,
+        "isexact": 1,
+        "favorites": 0,
+        "unlocked": 0,
+        "age": 1,
         "children": 1
     },
     {
+        "complexity": 1,
+        "isexact": 1,
+        "favorites": 0,
+        "unlocked": 0,
+        "age": 2,
+        "children": 0
+    },
+    {
+        "complexity": 1,
+        "isexact": 1,
+        "favorites": 0,
+        "unlocked": 0,
+        "age": 2,
+        "children": 3
+    },
+    {
+        "complexity": 1,
+        "isexact": 1,
+        "favorites": 0,
+        "unlocked": 0,
+        "age": 3,
+        "children": 6
+    },
+    {
+        "complexity": 1,
+        "isexact": 1,
+        "favorites": 0,
+        "unlocked": 0,
+        "age": 3,
+        "children": 0
+    },
+    {
+        "complexity": 1,
+        "isexact": 1,
+        "favorites": 0,
+        "unlocked": 0,
+        "age": 4,
+        "children": 3
+    },
+    {
+        "complexity": 1,
+        "isexact": 1,
+        "favorites": 0,
+        "unlocked": 0,
+        "age": 5,
+        "children": 5
+    },
+    {
+        "complexity": 4,
+        "isexact": 1,
+        "favorites": 0,
+        "unlocked": 0,
+        "age": 6,
+        "children": 2
+    },
+    {
         "complexity": 3,
         "isexact": 1,
         "favorites": 0,
-        "unlocked": 7,
+        "unlocked": 0,
         "age": 2,
-        "children": 4
+        "children": 3
+    },
+    {
+        "complexity": 4,
+        "isexact": 1,
+        "favorites": 0,
+        "unlocked": 0,
+        "age": 3,
+        "children": 5
     },
     {
         "complexity": 5,
         "isexact": 1,
         "favorites": 0,
-        "unlocked": 7,
-        "age": 3,
-        "children": 7
+        "unlocked": 0,
+        "age": 4,
+        "children": 3
     },
     {
         "complexity": 6,
         "isexact": 1,
         "favorites": 0,
-        "unlocked": 6,
-        "age": 3,
+        "unlocked": 0,
+        "age": 5,
+        "children": 1
+    },
+    {
+        "complexity": 4,
+        "isexact": 1,
+        "favorites": 0,
+        "unlocked": 0,
+        "age": 4,
+        "children": 1
+    },
+    {
+        "complexity": 6,
+        "isexact": 1,
+        "favorites": 0,
+        "unlocked": 0,
+        "age": 5,
         "children": 1
     },
     {
         "complexity": 7,
         "isexact": 1,
         "favorites": 0,
-        "unlocked": 6,
-        "age": 4,
-        "children": 4
-    },
-    {
-        "complexity": 10,
-        "isexact": 1,
-        "favorites": 0,
-        "unlocked": 6,
+        "unlocked": 0,
         "age": 5,
-        "children": 5
+        "children": 1
     },
     {
-        "complexity": 11,
+        "complexity": 12,
         "isexact": 1,
         "favorites": 0,
-        "unlocked": 6,
+        "unlocked": 0,
+        "age": 7,
+        "children": 1
+    },
+    {
+        "complexity": 17,
+        "isexact": 1,
+        "favorites": 0,
+        "unlocked": 0,
+        "age": 8,
+        "children": 6
+    },
+    {
+        "complexity": 3,
+        "isexact": 1,
+        "favorites": 0,
+        "unlocked": 0,
         "age": 6,
+        "children": 2
+    },
+    {
+        "complexity": 19,
+        "isexact": 1,
+        "favorites": 0,
+        "unlocked": 0,
+        "age": 9,
+        "children": 2
+    },
+    {
+        "complexity": 6,
+        "isexact": 1,
+        "favorites": 0,
+        "unlocked": 0,
+        "age": 7,
+        "children": 1
+    },
+    {
+        "complexity": 9,
+        "isexact": 1,
+        "favorites": 0,
+        "unlocked": 0,
+        "age": 8,
         "children": 2
     },
     {
         "complexity": 4,
         "isexact": 1,
         "favorites": 0,
-        "unlocked": 6,
-        "age": 2,
-        "children": 3
-    },
-    {
-        "complexity": 5,
-        "isexact": 1,
-        "favorites": 0,
-        "unlocked": 6,
-        "age": 3,
-        "children": 5
-    },
-    {
-        "complexity": 6,
-        "isexact": 1,
-        "favorites": 0,
-        "unlocked": 6,
-        "age": 4,
-        "children": 3
-    },
-    {
-        "complexity": 7,
-        "isexact": 1,
-        "favorites": 0,
-        "unlocked": 6,
-        "age": 5,
-        "children": 1
-    },
-    {
-        "complexity": 7,
-        "isexact": 1,
-        "favorites": 0,
-        "unlocked": 5,
-        "age": 4,
-        "children": 1
-    },
-    {
-        "complexity": 9,
-        "isexact": 1,
-        "favorites": 0,
-        "unlocked": 5,
-        "age": 5,
-        "children": 1
-    },
-    {
-        "complexity": 9,
-        "isexact": 1,
-        "favorites": 0,
-        "unlocked": 5,
-        "age": 5,
-        "children": 1
-    },
-    {
-        "complexity": 16,
-        "isexact": 1,
-        "favorites": 0,
-        "unlocked": 5,
-        "age": 7,
-        "children": 1
-    },
-    {
-        "complexity": 19,
-        "isexact": 1,
-        "favorites": 0,
-        "unlocked": 5,
-        "age": 8,
-        "children": 6
-    },
-    {
-        "complexity": 11,
-        "isexact": 1,
-        "favorites": 0,
-        "unlocked": 5,
+        "unlocked": 0,
         "age": 6,
-        "children": 2
-    },
-    {
-        "complexity": 21,
-        "isexact": 1,
-        "favorites": 0,
-        "unlocked": 4,
-        "age": 9,
-        "children": 2
-    },
-    {
-        "complexity": 12,
-        "isexact": 1,
-        "favorites": 0,
-        "unlocked": 6,
-        "age": 7,
         "children": 1
+    },
+    {
+        "complexity": 22,
+        "isexact": 1,
+        "favorites": 0,
+        "unlocked": 0,
+        "age": 10,
+        "children": 2
     },
     {
         "complexity": 13,
         "isexact": 1,
         "favorites": 0,
-        "unlocked": 6,
-        "age": 8,
-        "children": 2
-    },
-    {
-        "complexity": 11,
-        "isexact": 1,
-        "favorites": 0,
-        "unlocked": 5,
-        "age": 6,
-        "children": 1
-    },
-    {
-        "complexity": 24,
-        "isexact": 1,
-        "favorites": 0,
-        "unlocked": 5,
-        "age": 10,
-        "children": 2
-    },
-    {
-        "complexity": 16,
-        "isexact": 1,
-        "favorites": 0,
-        "unlocked": 6,
+        "unlocked": 0,
         "age": 9,
         "children": 4
     },
     {
-        "complexity": 27,
+        "complexity": 25,
         "isexact": 1,
         "favorites": 0,
-        "unlocked": 5,
+        "unlocked": 0,
         "age": 11,
-        "children": 2
-    },
-    {
-        "complexity": 28,
-        "isexact": 1,
-        "favorites": 0,
-        "unlocked": 5,
-        "age": 12,
-        "children": 2
-    },
-    {
-        "complexity": 29,
-        "isexact": 1,
-        "favorites": 0,
-        "unlocked": 5,
-        "age": 13,
-        "children": 2
-    },
-    {
-        "complexity": 10,
-        "isexact": 1,
-        "favorites": 0,
-        "unlocked": 5,
-        "age": 6,
-        "children": 2
-    },
-    {
-        "complexity": 32,
-        "isexact": 1,
-        "favorites": 0,
-        "unlocked": 4,
-        "age": 14,
-        "children": 2
-    },
-    {
-        "complexity": 17,
-        "isexact": 1,
-        "favorites": 0,
-        "unlocked": 4,
-        "age": 10,
-        "children": 1
-    },
-    {
-        "complexity": 34,
-        "isexact": 1,
-        "favorites": 0,
-        "unlocked": 4,
-        "age": 15,
-        "children": 1
-    },
-    {
-        "complexity": 35,
-        "isexact": 1,
-        "favorites": 0,
-        "unlocked": 5,
-        "age": 16,
-        "children": 1
-    },
-    {
-        "complexity": 21,
-        "isexact": 1,
-        "favorites": 0,
-        "unlocked": 5,
-        "age": 9,
-        "children": 1
-    },
-    {
-        "complexity": 29,
-        "isexact": 1,
-        "favorites": 0,
-        "unlocked": 5,
-        "age": 12,
-        "children": 1
-    },
-    {
-        "complexity": 30,
-        "isexact": 1,
-        "favorites": 0,
-        "unlocked": 5,
-        "age": 13,
         "children": 2
     },
     {
         "complexity": 26,
         "isexact": 1,
         "favorites": 0,
-        "unlocked": 5,
-        "age": 11,
+        "unlocked": 0,
+        "age": 12,
+        "children": 2
+    },
+    {
+        "complexity": 27,
+        "isexact": 1,
+        "favorites": 0,
+        "unlocked": 0,
+        "age": 13,
+        "children": 2
+    },
+    {
+        "complexity": 8,
+        "isexact": 1,
+        "favorites": 0,
+        "unlocked": 0,
+        "age": 6,
+        "children": 2
+    },
+    {
+        "complexity": 30,
+        "isexact": 1,
+        "favorites": 0,
+        "unlocked": 0,
+        "age": 14,
+        "children": 2
+    },
+    {
+        "complexity": 14,
+        "isexact": 1,
+        "favorites": 0,
+        "unlocked": 0,
+        "age": 10,
+        "children": 1
+    },
+    {
+        "complexity": 32,
+        "isexact": 1,
+        "favorites": 0,
+        "unlocked": 0,
+        "age": 15,
         "children": 1
     },
     {
         "complexity": 33,
         "isexact": 1,
         "favorites": 0,
-        "unlocked": 5,
+        "unlocked": 0,
+        "age": 16,
+        "children": 1
+    },
+    {
+        "complexity": 19,
+        "isexact": 1,
+        "favorites": 0,
+        "unlocked": 0,
+        "age": 9,
+        "children": 1
+    },
+    {
+        "complexity": 27,
+        "isexact": 1,
+        "favorites": 0,
+        "unlocked": 0,
+        "age": 12,
+        "children": 1
+    },
+    {
+        "complexity": 28,
+        "isexact": 1,
+        "favorites": 0,
+        "unlocked": 0,
+        "age": 13,
+        "children": 2
+    },
+    {
+        "complexity": 24,
+        "isexact": 1,
+        "favorites": 0,
+        "unlocked": 0,
+        "age": 11,
+        "children": 1
+    },
+    {
+        "complexity": 31,
+        "isexact": 1,
+        "favorites": 0,
+        "unlocked": 0,
         "age": 14,
         "children": 1
     },
     {
-        "complexity": 30,
+        "complexity": 28,
         "isexact": 1,
         "favorites": 0,
-        "unlocked": 5,
+        "unlocked": 0,
         "age": 14,
         "children": 1
     },
     {
-        "complexity": 36,
+        "complexity": 34,
         "isexact": 1,
         "favorites": 0,
-        "unlocked": 5,
+        "unlocked": 0,
         "age": 15,
         "children": 3
     },
     {
-        "complexity": 37,
+        "complexity": 35,
         "isexact": 1,
         "favorites": 0,
-        "unlocked": 4,
+        "unlocked": 0,
         "age": 16,
         "children": 1
     },
     {
-        "complexity": 37,
+        "complexity": 35,
         "isexact": 1,
         "favorites": 0,
-        "unlocked": 5,
+        "unlocked": 0,
         "age": 16,
         "children": 2
     },
     {
-        "complexity": 39,
+        "complexity": 37,
         "isexact": 1,
         "favorites": 0,
-        "unlocked": 4,
+        "unlocked": 0,
         "age": 17,
         "children": 1
     },
     {
-        "complexity": 4,
+        "complexity": 3,
         "isexact": 1,
         "favorites": 0,
-        "unlocked": 8,
+        "unlocked": 0,
         "age": 2,
         "children": 1
     },
     {
-        "complexity": 39,
+        "complexity": 37,
         "isexact": 1,
         "favorites": 0,
-        "unlocked": 5,
+        "unlocked": 0,
         "age": 17,
         "children": 1
     },
     {
-        "complexity": 46,
+        "complexity": 44,
         "isexact": 1,
         "favorites": 0,
-        "unlocked": 5,
+        "unlocked": 0,
         "age": 18,
         "children": 1
     },
     {
-        "complexity": 49,
+        "complexity": 47,
         "isexact": 1,
         "favorites": 0,
-        "unlocked": 4,
+        "unlocked": 0,
         "age": 19,
         "children": 1
     },
     {
-        "complexity": 50,
+        "complexity": 48,
         "isexact": 1,
-        "favorites": 2,
-        "unlocked": 4,
+        "favorites": 0,
+        "unlocked": 0,
         "age": 20,
         "children": 0
     }

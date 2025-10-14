@@ -1,0 +1,1480 @@
+[
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 0,
+        "date": 1753483289,
+        "recipe": [
+            0,
+            0
+        ],
+        "rawname": "<#b353cc>Time",
+        "lore": [
+            "<italic>The flow of change."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 1,
+        "date": 1753483289,
+        "recipe": [
+            0,
+            0
+        ],
+        "rawname": "<#f7cb84>Space",
+        "lore": [
+            "<italic>The layout of existence."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 2,
+        "date": 1753483323,
+        "recipe": [
+            1,
+            2
+        ],
+        "rawname": "Motion",
+        "lore": [
+            "Bound to happen, given time and space."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 3,
+        "date": 1753484784,
+        "recipe": [
+            2,
+            2
+        ],
+        "rawname": "Distance",
+        "lore": [
+            "Essentially, separation."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 4,
+        "date": 1753552058,
+        "recipe": [
+            1,
+            3,
+            4
+        ],
+        "rawname": "Speed",
+        "lore": [
+            "Speed = Distance/Time"
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 5,
+        "date": 1753552782,
+        "recipe": [
+            2,
+            4
+        ],
+        "rawname": "Position",
+        "lore": [
+            "A point in space"
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 6,
+        "date": 1753552897,
+        "recipe": [
+            1,
+            6
+        ],
+        "rawname": "Event",
+        "lore": [
+            "A thing that happens."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 7,
+        "date": 1753553936,
+        "recipe": [
+            5,
+            5
+        ],
+        "rawname": "Acceleration",
+        "lore": [
+            "The speed of the speed."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 8,
+        "date": 1753554203,
+        "recipe": [
+            3,
+            7
+        ],
+        "rawname": "Force",
+        "lore": [
+            "An influence on motion."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 9,
+        "date": 1753554747,
+        "recipe": [
+            8,
+            9
+        ],
+        "rawname": "Mass",
+        "lore": [
+            "The quantified resistance to acceleration."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 10,
+        "date": 1753555377,
+        "recipe": [
+            2,
+            6,
+            10
+        ],
+        "rawname": "Body",
+        "lore": [
+            "An object that occupies space."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 11,
+        "date": 1753557878,
+        "recipe": [
+            1,
+            4
+        ],
+        "rawname": "Past",
+        "lore": [
+            "The time before."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 12,
+        "date": 1753557922,
+        "recipe": [
+            1,
+            12
+        ],
+        "rawname": "Present",
+        "lore": [
+            "The time currently."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 13,
+        "date": 1753557949,
+        "recipe": [
+            1,
+            13
+        ],
+        "rawname": "Future",
+        "lore": [],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 14,
+        "date": 1753557985,
+        "recipe": [
+            12,
+            13,
+            14
+        ],
+        "rawname": "Timeline",
+        "lore": [
+            "A sequence of events."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 15,
+        "date": 1753558780,
+        "recipe": [
+            1,
+            3,
+            7
+        ],
+        "rawname": "Displacement",
+        "lore": [
+            "The moving of something from its place or position."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 16,
+        "date": 1753558811,
+        "recipe": [
+            9,
+            16
+        ],
+        "rawname": "Work",
+        "lore": [
+            "Occurs when force causes displacement of an object."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 17,
+        "date": 1753559417,
+        "recipe": [
+            7,
+            14
+        ],
+        "rawname": "Possibility",
+        "lore": [
+            "A thing that can happen."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 18,
+        "date": 1753559452,
+        "recipe": [
+            1,
+            11,
+            18
+        ],
+        "rawname": "Capability",
+        "lore": [
+            "The ability to make something happen."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 19,
+        "date": 1753559498,
+        "recipe": [
+            17,
+            19
+        ],
+        "rawname": "Energy",
+        "lore": [
+            "The capability to do work."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 20,
+        "date": 1753560320,
+        "recipe": [
+            2,
+            10
+        ],
+        "rawname": "Matter",
+        "lore": [
+            "Anything that has mass and takes up space."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 21,
+        "date": 1753560358,
+        "recipe": [
+            20,
+            21
+        ],
+        "rawname": "Particle",
+        "lore": [
+            "A minute portion of matter."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 22,
+        "date": 1753560466,
+        "recipe": [
+            2,
+            9,
+            10,
+            11,
+            11
+        ],
+        "rawname": "Gravity",
+        "lore": [
+            "The fundamental force that pulls objects together."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 23,
+        "date": 1753560555,
+        "recipe": [
+            1,
+            3,
+            23
+        ],
+        "rawname": "Attraction",
+        "lore": [
+            "The motion of gravity."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 24,
+        "date": 1753560627,
+        "recipe": [
+            3,
+            7,
+            10
+        ],
+        "rawname": "Collision",
+        "lore": [
+            "An event where two objects interact."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 25,
+        "date": 1753560697,
+        "recipe": [
+            20,
+            22,
+            24
+        ],
+        "rawname": "Atom",
+        "lore": [
+            "The basic unit of matter."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 26,
+        "date": 1753560848,
+        "recipe": [
+            6,
+            9,
+            13,
+            24
+        ],
+        "rawname": "Bond",
+        "lore": [
+            "The attraction that holds objects together."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 27,
+        "date": 1753560886,
+        "recipe": [
+            25,
+            26,
+            27
+        ],
+        "rawname": "Molecule",
+        "lore": [
+            "A group of atoms held together by a bond."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 28,
+        "date": 1753561145,
+        "recipe": [
+            27,
+            28,
+            28
+        ],
+        "rawname": "Compound",
+        "lore": [
+            "Formed from the bond between two elements."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 29,
+        "date": 1753561167,
+        "recipe": [
+            6,
+            10,
+            29
+        ],
+        "rawname": "Structure",
+        "lore": [
+            "The arrangement of and relations between elements."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 30,
+        "date": 1753561258,
+        "recipe": [
+            7,
+            15
+        ],
+        "rawname": "Function",
+        "lore": [
+            "An intended activity or purpose."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 31,
+        "date": 1753561284,
+        "recipe": [
+            3,
+            30,
+            31
+        ],
+        "rawname": "System",
+        "lore": [
+            "A field in which a set of rules apply."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 32,
+        "date": 1753561336,
+        "recipe": [
+            12,
+            13,
+            27
+        ],
+        "rawname": "Repetition",
+        "lore": [
+            "The recurrence of an action or event."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 33,
+        "date": 1753561361,
+        "recipe": [
+            1,
+            32,
+            33
+        ],
+        "rawname": "Cycle",
+        "lore": [
+            "A series of events that are regularly repeated."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 34,
+        "date": 1753561388,
+        "recipe": [
+            2,
+            32,
+            34
+        ],
+        "rawname": "Environment",
+        "lore": [
+            "The conditions in which an activity is carried on."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 35,
+        "date": 1753561412,
+        "recipe": [
+            3,
+            20,
+            21
+        ],
+        "rawname": "Temperature",
+        "lore": [
+            "The average kinetic energy of particles."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 36,
+        "date": 1753561442,
+        "recipe": [
+            20,
+            28,
+            36
+        ],
+        "rawname": "Chemistry",
+        "lore": [
+            "The study of matter."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 37,
+        "date": 1753561508,
+        "recipe": [
+            1,
+            7,
+            37
+        ],
+        "rawname": "Reaction",
+        "lore": [
+            "A chemical process where substances transform."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 38,
+        "date": 1753561548,
+        "recipe": [
+            26,
+            26,
+            27
+        ],
+        "rawname": "Carbon",
+        "lore": [
+            "The chemical element of atomic number 6.",
+            "edit: i am sorry for this recipe this is",
+            "the worst recipe in the game"
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 39,
+        "date": 1753561577,
+        "recipe": [
+            29,
+            38,
+            39
+        ],
+        "rawname": "Organic Matter",
+        "lore": [
+            "Carbon-based compounds from organisms."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 40,
+        "date": 1753561603,
+        "recipe": [
+            2,
+            30
+        ],
+        "rawname": "Boundary",
+        "lore": [
+            "Interface separating chemical systems."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 41,
+        "date": 1753561624,
+        "recipe": [
+            40,
+            41
+        ],
+        "rawname": "Cell",
+        "lore": [
+            "Basic unit of life, peforms biological functions."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 42,
+        "date": 1753561660,
+        "recipe": [
+            20,
+            38,
+            42
+        ],
+        "rawname": "Metabolism",
+        "lore": [
+            "Chemical process which converts matter to energy for life."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 43,
+        "date": 1753561699,
+        "recipe": [
+            7,
+            14,
+            42
+        ],
+        "rawname": "Replication",
+        "lore": [
+            "The process of duplicating molecules or structures."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 44,
+        "date": 1753561719,
+        "recipe": [
+            1,
+            43,
+            44
+        ],
+        "rawname": "Growth",
+        "lore": [
+            "Increase in size, mass & complexity over time."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 45,
+        "date": 1753561748,
+        "recipe": [
+            1,
+            3
+        ],
+        "rawname": "Change",
+        "lore": [
+            "Alteration in form, function, or state over time."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 46,
+        "date": 1753561774,
+        "recipe": [
+            44,
+            46
+        ],
+        "rawname": "Mutation",
+        "lore": [
+            "A chance in genetic sequence."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 47,
+        "date": 1753561793,
+        "recipe": [
+            35,
+            47
+        ],
+        "rawname": "Adaptation",
+        "lore": [
+            "A change that improves an organism's survival."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 48,
+        "date": 1753561822,
+        "recipe": [
+            42,
+            45,
+            48
+        ],
+        "rawname": "Organism",
+        "lore": [
+            "A living system capable of growth and reproduction."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 49,
+        "date": 1753561873,
+        "recipe": [
+            13,
+            20,
+            22,
+            31,
+            49
+        ],
+        "rawname": "Life",
+        "lore": [
+            "The fundamental property of any living thing."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 50,
+        "date": 1760126078,
+        "recipe": [
+            42,
+            42
+        ],
+        "rawname": "Tissue Sample",
+        "lore": [
+            "Small piece of organic matter."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 51,
+        "date": 1760132150,
+        "recipe": [
+            49,
+            51,
+            51
+        ],
+        "rawname": "Organ",
+        "lore": [
+            "Collection of tissues united for a specific job inside a living body."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 52,
+        "date": 1760202687,
+        "recipe": [
+            9,
+            20,
+            21
+        ],
+        "rawname": "Charge",
+        "lore": [
+            "Property that makes things attract or repel electrically."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 53,
+        "date": 1760203585,
+        "recipe": [
+            22,
+            53
+        ],
+        "rawname": "Electricity",
+        "lore": [
+            "Flow of charged energy through matter."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 54,
+        "date": 1760205423,
+        "recipe": [
+            9,
+            19
+        ],
+        "rawname": "Strength",
+        "lore": [],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 55,
+        "date": 1760206737,
+        "recipe": [
+            2,
+            6,
+            11
+        ],
+        "rawname": "Arrangement",
+        "lore": [
+            "The placement of parts."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 56,
+        "date": 1760206787,
+        "recipe": [
+            33,
+            56
+        ],
+        "rawname": "Pattern",
+        "lore": [
+            "A regularly repeated arrangement."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 57,
+        "date": 1760207470,
+        "recipe": [
+            5,
+            54,
+            55,
+            57
+        ],
+        "rawname": "Signal",
+        "lore": [
+            "Electrically, transfer of information via",
+            "patterns of volume & frequency."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 58,
+        "date": 1760208041,
+        "recipe": [
+            42,
+            58
+        ],
+        "rawname": "Neuron",
+        "lore": [
+            "A cell that transfers information using signals."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 59,
+        "date": 1760212997,
+        "recipe": [
+            52,
+            59
+        ],
+        "rawname": "Brain",
+        "lore": [
+            "The most vital part of the body.",
+            "- The brain"
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 60,
+        "date": 1760215696,
+        "recipe": [
+            26,
+            50
+        ],
+        "rawname": "Oxygen",
+        "lore": [
+            "The gas essential for almost all life forms on earth."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 61,
+        "date": 1760216141,
+        "recipe": [
+            3,
+            20,
+            40,
+            49,
+            61
+        ],
+        "rawname": "Animal",
+        "lore": [
+            "Organisms capable of moving and consuming",
+            "organic material for energy."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 62,
+        "date": 1760220393,
+        "recipe": [
+            16,
+            58
+        ],
+        "rawname": "Communication",
+        "lore": [
+            "The exchange of information."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 63,
+        "date": 1760221436,
+        "recipe": [
+            60,
+            63
+        ],
+        "rawname": "Language",
+        "lore": [
+            "Method of expressing thoughts through signals."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 64,
+        "date": 1760222997,
+        "recipe": [
+            62,
+            64
+        ],
+        "rawname": "Human",
+        "lore": [
+            "The best"
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 65,
+        "date": 1760284282,
+        "recipe": [
+            1,
+            7,
+            60
+        ],
+        "rawname": "Intelligence",
+        "lore": [
+            "I wanted to put change in the recipe :("
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 66,
+        "date": 1760284339,
+        "recipe": [
+            1,
+            66
+        ],
+        "rawname": "Knowledge",
+        "lore": [
+            "you know stuff"
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 6,
+        "texture": 67,
+        "date": 1760294429,
+        "recipe": [
+            25,
+            26
+        ],
+        "rawname": "Supernova",
+        "lore": [
+            "eyy im super"
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 68,
+        "date": 1760295333,
+        "recipe": [
+            1,
+            2,
+            20,
+            21
+        ],
+        "rawname": "Universe",
+        "lore": [
+            "All of space and time and everything it contains,",
+            "including all matter and energy."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 69,
+        "date": 1760295543,
+        "recipe": [
+            26,
+            69
+        ],
+        "rawname": "Hydrogen",
+        "lore": [
+            "The most abundant element in the universe, atomic number 1."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 6,
+        "texture": 70,
+        "date": 1760295047,
+        "recipe": [
+            1,
+            68
+        ],
+        "rawname": "Star",
+        "lore": [
+            "The fundamental gas giant."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 71,
+        "date": 1760295641,
+        "recipe": [
+            61,
+            61,
+            70
+        ],
+        "rawname": "Water",
+        "lore": [
+            "Essential fluid formed from hydrogen and oxygen."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 72,
+        "date": 1760296149,
+        "recipe": [
+            65,
+            71
+        ],
+        "rawname": "Earth",
+        "lore": [
+            "Where we live."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 6,
+        "texture": 73,
+        "date": 1760296754,
+        "recipe": [
+            25,
+            73
+        ],
+        "rawname": "Sand",
+        "lore": [],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 6,
+        "texture": 74,
+        "date": 1760298108,
+        "recipe": [
+            26,
+            74
+        ],
+        "rawname": "Iron",
+        "lore": [
+            "A useful resource in high abundance."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 75,
+        "date": 1760299575,
+        "recipe": [
+            42,
+            61,
+            72,
+            75
+        ],
+        "rawname": "Blood",
+        "lore": [
+            "Fluid that carries oxygen throughout the body."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 76,
+        "date": 1760300649,
+        "recipe": [
+            31,
+            52,
+            57,
+            76
+        ],
+        "rawname": "Human Heart",
+        "lore": [
+            "It pumps blood right into your body."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 77,
+        "date": 1760301920,
+        "recipe": [
+            5,
+            16,
+            55
+        ],
+        "rawname": "Wave",
+        "lore": [
+            "Frequency, Offset, Amplitude make up a wave."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 78,
+        "date": 1760302183,
+        "recipe": [
+            22,
+            78
+        ],
+        "rawname": "Wave-Particle Duality",
+        "lore": [
+            "yes i understand this term obviously"
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 79,
+        "date": 1760302523,
+        "recipe": [
+            31,
+            79
+        ],
+        "rawname": "Light",
+        "lore": [
+            "eyy i'm seein here"
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 80,
+        "date": 1760304997,
+        "recipe": [
+            46,
+            57
+        ],
+        "rawname": "Inverse",
+        "lore": [
+            "How things haven't been."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 6,
+        "texture": 81,
+        "date": 1760305405,
+        "recipe": [
+            69,
+            81
+        ],
+        "rawname": "Nothing",
+        "lore": [
+            "An uncreation."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 82,
+        "date": 1760305977,
+        "recipe": [
+            11,
+            82
+        ],
+        "rawname": "Absence",
+        "lore": [
+            "The lack of something."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 6,
+        "texture": 83,
+        "date": 1760306479,
+        "recipe": [
+            80,
+            83
+        ],
+        "rawname": "Darkness",
+        "lore": [
+            "The absence of light."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 6,
+        "texture": 84,
+        "date": 1760306538,
+        "recipe": [
+            80,
+            84
+        ],
+        "rawname": "Shadow",
+        "lore": [
+            "What light cannot reach."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 85,
+        "date": 1760306982,
+        "recipe": [
+            7,
+            20,
+            80
+        ],
+        "rawname": "Observe",
+        "lore": [
+            "At the event of light being observed, it gains energy."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 86,
+        "date": 1760307176,
+        "recipe": [
+            11,
+            19,
+            86
+        ],
+        "rawname": "Visual",
+        "lore": [
+            "As you can see,"
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 87,
+        "date": 1760307456,
+        "recipe": [
+            1,
+            83
+        ],
+        "rawname": "Timeless",
+        "lore": [
+            "The absence of time."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 88,
+        "date": 1760307603,
+        "recipe": [
+            11,
+            87,
+            88
+        ],
+        "rawname": "Image",
+        "lore": [
+            "The timeless representation of a visual."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 89,
+        "date": 1760308190,
+        "recipe": [
+            2,
+            11,
+            19
+        ],
+        "rawname": "Size",
+        "lore": [
+            "Amount of space contained by an object."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 90,
+        "date": 1760308319,
+        "recipe": [
+            45,
+            90
+        ],
+        "rawname": "Big",
+        "lore": [
+            "When something occupies a large amount of space."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 91,
+        "date": 1760308352,
+        "recipe": [
+            81,
+            91
+        ],
+        "rawname": "Small",
+        "lore": [
+            "When something occupies a small amount of space."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 92,
+        "date": 1760308730,
+        "recipe": [
+            64,
+            89
+        ],
+        "rawname": "Symbol",
+        "lore": [
+            "A mark that represents an idea."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 93,
+        "date": 1760308876,
+        "recipe": [
+            92,
+            93
+        ],
+        "rawname": "Icon",
+        "lore": [
+            "A small symbol meant to convey an idea simplistically."
+        ],
+        "color": "#000000"
+    },
+    {
+        "flags": 0,
+        "author": 1,
+        "texture": 94,
+        "date": 1760309059,
+        "recipe": [
+            77,
+            93
+        ],
+        "rawname": "Heart",
+        "lore": [
+            "A symbol used to express the idea of the \"heart\""
+        ],
+        "color": "#000000"
+    }
+]
